@@ -18,4 +18,4 @@ I used Seattle Airbnb Dataset for this project. The dataset can be found here: h
 [Dataset](https://www.kaggle.com/datasets/airbnb/seattle/data)
 
 # Appendix: (Important Note):
-Because two file calendar and review have size quite big so I will put link to data at here: https://www.kaggle.com/datasets/airbnb/seattle/data
+Because two file calendar and review have size quite big so I will put link to data at here:: https://www.kaggle.com/datasets/airbnb/seattle/data
