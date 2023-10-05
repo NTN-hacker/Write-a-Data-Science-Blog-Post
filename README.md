@@ -9,9 +9,9 @@ This project (Write a Data Science Blog Post) is part of Udacity Data Scientists
 I used Seattle Airbnb Dataset for this project. The dataset can be found here: https://www.kaggle.com/airbnb/seattle
 
 # Libraries
-Pandas
-Seaborn
-matplotlib.pyplot
+- Pandas
+- Seaborn
+- Matplotlib
 
 # File Descriptions
 
