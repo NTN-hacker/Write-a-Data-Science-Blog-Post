@@ -1,7 +1,7 @@
 # Write-a-Data-Science-Blog-Post
 
 # Medium Blog Post
-My blog: [https://viblo.asia/u/nhan0944](https://viblo.asia/u/nhan0944)
+My blog: [Writing a Data Scientist Blog Post - Seattle Airbnb Listings Analysis]([https://viblo.asia/u/nhan0944](https://viblo.asia/p/project-writing-a-data-scientist-blog-post-seattle-airbnb-listings-analysis-y37LdEg2Vov))
 
 # Project Motivation
 This project (Write a Data Science Blog Post) is part of Udacity Data Scientists Nanodegree Program.
