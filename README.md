@@ -1,48 +1,42 @@
-# Project 1: Write A Data Science Blog Post
+# Writing-a-Data-Scientist-Blog-Post
 
-[Stack Overflow Insights - Developer Hiring, Marketing, and User Research](https://insights.stackoverflow.com/survey)
+## Prerequisites
 
-NhanNT69 - AIC - FPT Software - FPT Conp
+The code is saved in ```.ipynb``` file and can be run with any tool that support this file format. These are libraries that is used in this project:
 
-## Contents
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- warnings
 
-- Installation
-- Data
-- Project Motivation
-- Some results on project
+### This project aims to answer these questions:
 
-## Installation 
+- How age of rider distributed?
+- What are percentage of User Type and Member Gender?
+- Is there any relationship between duration second and user type?
+- Is there any relationship between duration second, gender and user type?
+- Is there any relationship between duration second, week day and user type?
+- What is top 10 Start and End Station have most rider?
 
-Some packages that you need install before run program. 
+### Results
+For the code, please check the notebook ```DS_Udacity_BlogPost.ipynb```.
 
-You can install these packages via conda or pip.
+The findings of this project already published follow the link:
 
-- Numpy
-- Pandas
-- Matplotlib
-- Seaborn
+https://viblo.asia/p/do-you-need-to-work-more-effectively-in-the-rental-bike-industry-lets-examine-the-ford-gobike-system-in-san-francisco-in-more-detail-oK9Vyzr54QR
 
+### Data:
+This project use data from 201902-fordgobike-tripdata.csv
 
+## Dataset
 
-## Data
+- The data including information of 183.412 ford gobike trips in San Francisco area with 16 variables (duration_sec, start_time, end_time, start_station_id, start_station_name, start_station_latitude, start_station_longitude, end_station_id, end_station_name, end_station_latitude ,end_station_longitude, bike_id, user_type, member_birth_year, member_gender, bike_share_for_all_trip). But some datas has wrong so it need to be clean them.
 
-You will need to download Stackoverflow’s 2022 and 2023 Annual Developer Survey at [here](https://insights.stackoverflow.com/survey).
+## Summary of Findings
 
-Link: [Stack Overflow Insights - Developer Hiring, Marketing, and User Research](https://insights.stackoverflow.com/survey)
+- I noticed that the length of journeys is correlated with age, gender, day of the week, and hour. In San Francisco, there is a greater distribution of riders than in Oakland and Berkeley. San Francisco is a popular tourist destination, and as such, it is packed with riders who hire bikes to make getting around the city and beach simpler. In addition, people tend to spend more time bicycling on the weekends because they appear to have employment during the weekdays or because weekend visitors tend to come.
 
-## Project Motivation
-My goal on project is maybe solve some main question base on the analysis dataset. There are three questions: `</br>`
+## Key Insights for Presentation
 
-- What Programming Languages are most used to work and Which Programming Languages are most Required in Stackoverflow survey data of 2022 and 2023?
-- How does Programming Languages used at work relates with Programming Languages, People Wants to Learn in India According to Stackoverflow survey data of 2022 and 2023?
-- What are the most wanted Programming Languages in India According to Stackoverflow survey data of 2022 and 2023?
-
-## Some results on project
-
-The main results of the code can be found at the post available [here](https://viblo.asia/p/project-writing-a-data-scientist-blog-post-y37LdEg2Vov)
-
-## My information & Conclusion
-
-You can find and discover many data on dataset about stack overflow. Each data is a story and the most important is you want do story telling about this data/story.
-
-My information: nguyennhan8521@gmail.com
+- I just pay attention to the user kinds, age, gender, and location. I began by displaying the start location, selecting the top ten start locations with the greatest number of riders, and advising them to continuously enhance their offerings. The proportion of bike rides for each user type—subscriber and customer—is displayed in the next one. Subcriber users make up 89.2% of the total, while customer users make up 10.8%. The distribution of trip time by user type and days, as well as by gender, is then plotted.
