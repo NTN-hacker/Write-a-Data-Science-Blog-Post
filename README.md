@@ -40,3 +40,8 @@ This project use data from 201902-fordgobike-tripdata.csv
 ## Key Insights for Presentation
 
 - I just pay attention to the user kinds, age, gender, and location. I began by displaying the start location, selecting the top ten start locations with the greatest number of riders, and advising them to continuously enhance their offerings. The proportion of bike rides for each user type—subscriber and customer—is displayed in the next one. Subcriber users make up 89.2% of the total, while customer users make up 10.8%. The distribution of trip time by user type and days, as well as by gender, is then plotted.
+
+## Reference
+https://seaborn.pydata.org/tutorial/data_structure.html
+https://numpy.org/doc/stable/user/basics.rec.html
+https://matplotlib.org/stable/users/explain/quick_start.html#coding-styles
