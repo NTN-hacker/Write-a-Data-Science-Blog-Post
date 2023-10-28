@@ -45,3 +45,4 @@ This project use data from 201902-fordgobike-tripdata.csv
 - https://seaborn.pydata.org/tutorial/data_structure.html
 - https://numpy.org/doc/stable/user/basics.rec.html
 - https://matplotlib.org/stable/users/explain/quick_start.html#coding-styles
+- https://www.mathworks.com/help/matlab/ref/subplot.html
